@@ -2,7 +2,6 @@
 $passes = 'FBFBBFFRLR', 'BFFFBBFRRR', 'FFFBBBFRRR', 'BBFFBBFRLL'
 $passes = get-content '5.txt'
 
-$maxId = 0
 $depth = 0..127
 $width = 0..7
 $seats = [System.Collections.ArrayList]@()
